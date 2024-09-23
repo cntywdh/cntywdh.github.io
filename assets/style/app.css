@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient( #87ceeb 0%, #fff 40%, #87ceeb 100%) ;
+} 
+nav {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+  }
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.Potoimage {
+    width: 200px;
+}
+.profile h2 {
+    color: rgb(115, 163, 180) bold;
+    transform: translateY(10px) ;
+}
+.profile h4 {
+    color: rgb(115, 163, 180) bold;
+    transform: translateY(10px)
+}
+.biodata {
+    background: linear-gradient(#ffffff 0%, #87ceeb 40%, #fff 100%) ;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+    padding-top: 200px;
+}
+.biodata h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.PORTOFOLIO {
+    text-align: center;
+    padding-bottom: 75px;
+}
+.PORTOFOLIO h1 {
+    text-align: center;
+    padding-bottom: 75px;
+}
+.footer {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+#contact {
+    background: linear-gradient(#ffffff 0%, #ffffffd5 40%, #87ceeb 100%) ;
+    padding: var(--sectionPadding);
+}
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+    gap: 3rem;
+}
+.contact-form  div {
+    margin-bottom:1.4rem ;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: rgb(153, 210, 231);
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.contact-form input ::placeholder {
+    color: lightblue;   
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 5px solid rgb(67, 185, 224);
+}
+.btn-submit {
+    width: 100%;
+    padding: .75rem 1.3rem ;
+    background-color: rgb(115, 163, 180);
+    color: black;
+    border: lightblue;
+    border-radius: 3px;
+    cursor: pointer; 
+    transition: .2s ease-in-out;
+}
+.btn-submit:hover {
+    background: rgb(192, 223, 233);
+}
+.contact-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact-item-icon {
+    margin-left: 170px;
+    width: 53px;
+    height: 53px;
+    border-radius: 9px;
+    display: flex;
+    justify-items: center;
+}
+ 
