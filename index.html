@@ -11,14 +11,16 @@
     <title>Cintya Profile</title>
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Cintya</a>
+          <a href="#" class="logo"><img src="assets/style/image/logo.png"></a>
+          <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -35,6 +37,9 @@
           </div>
         </div>
       </nav>
+      <!--Akhir Bagian Navbar-->
+
+      <!--Bagian profile-->
       <section>
         <div class="container">
              <div class="profile">
@@ -44,7 +49,7 @@
              alt=""
              />
              <h2>Cintya Widhi Astuti</h2>
-             <h4>Softwere Egenering</h4>
+             <h4>Business Analyst (AAMIIN)</h4>
         </div>
            </div>
       </section>
@@ -53,181 +58,64 @@
       viewBox="0 0 1440 320"><path fill="#fff" 
       fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,90.7C672,75,768,117,864,154.7C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path></svg>
-    <section id="biodata" class="biodata">
-        <h1 class="text-center">Abot Me</h1>
-    <div class="container text-center">
-        <div class="row">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="800"
-            class="col-sm-4 mb-2"
-          >
-            Hello, introduce my name is Fachrur Rizhky Al Fadillah who is
-            often called Fahrul. I am a back-end web developer using
-            technology from JavaScript and PHP. For now, I am a graduate of
-            a vocational high school with a major in computer and network
-            engineering, graduating in 2022. I have had many achievements
-            and awards while I was at school, I also served as chairman of
-            the programming club in my school's extracurriculars.
-          </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="800"
-            class="col-sm-4 mb-2"
-          >
-            <h4 class="subNameHeading fw-bold"></h4>
-            <div class="pendidikan">
-              <!-- Button trigger modal -->
-              <button
-                type="button"
-                class="btn btn-danger itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal1"
-              >
-                SMP
-              </button>
+      <!--Akhir bagian profile-->
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal1"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        2017-2020
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">Madrasah Tsanawiyah Negri 2 Balikpapan</div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
+      <!--Bagian Biodata-->
+      <section class="biodata">
+        <section id="biodata">
+        <h1 class="text-center">About Me</h1>
+        <div class="container">
+          <div class="row">
+            <!-- Kolom Kiri: Teks -->
+            <div class="col-left">
+              <p>Haii! Perkenalkan saya Cintya Widhi Astuti biasanya di panggil cintya dengan NIM 10231026 Mahasiswi Prodi sistem informasi di Institut Teknologi Kalimantan.
+                Saya memiliki berbagai hobi seperti jalan-jalan, mendengarkan musik, menonton film dan mencintai nya dalam diam... saya memiliki ketertarikan dibidang teknologi 
+                tapi masuk SI mw incar management bisnis aja si gmw ngoding gangerti pusing sekian...
+              </p>
+            </div>
+      
+            <!-- Kolom Kanan: "About Me" dengan tab -->
+            <div class="col-right">
+              <div id="about">
+                <div class="about-container">
+                  <h2 class="sub-title"></h2>
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Kemampuan</p>
+                    <p class="tab-links" onclick="opentab('pengalaman')">Pengalaman</p>
+                    <p class="tab-links" onclick="opentab('pendidikan')">Pendidikan</p>
                   </div>
-                </div>
-              </div>
-              <i class="fas fa-arrow-circle-down itemEdu"></i>
-              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
-              <button
-                type="button"
-                class="btn btn-danger itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal2"
-              >
-                SMK
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal2"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                         2020-2023
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">Sekolah Menengah Kejuruan 1 Balikpapan</div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>Hard Skill</span><br>Microsoft Word, Dasar Pemograman, Editor</li>
+                      <li><span>Soft Skill</span><br>Kerja tim, Komunikasi, Pemecah Masalah</li>
+                    </ul>
                   </div>
-                </div>
-              </div>
-              <i class="fas fa-arrow-circle-down itemEdu"></i>
-              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
-              <button
-                type="button"
-                class="btn btn-danger itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal3"
-              >
-                 Kuliah
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal3"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                         2023-Sekarang
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                        Institut Teknologi Kalimantan
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                    </div>
+                  <div class="tab-contents" id="pengalaman">
+                    <ul>
+                      <li><span>2024</span><br>Staff INSPACE 2024</li>
+                      <li><span>2024</span><br>Staff Magang BUMH HMSI Kabinet Syenergia</li>
+                      <li><span>2024</span><br>Staff BUMH HMSI Kabinet Istanava</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="pendidikan">
+                    <ul>
+                      <li><span>2023 - Sekarang</span><br>Institut Teknologi Kalimantan</li>
+                      <li><span>2020 - 2024</span><br>SMK Negeri 1 Balikpapan</li>
+                      <li><span>2017 - 2020</span><br>Mts Negri 2 Balikpapan</li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
-            My hobby is making websites and looking for new things or
-            technologies that I can apply to my website, then I usually
-            upload them to GitHub as an archive as well as my repository.
-            Apart from creating a website, I also have an interest in being
-            a content creator, I have a TikTok account and also YouTube
-            where I express my work
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+      </section>
+      </section>
     </section>
+<!--Bagian Akhir biodata-->       
+
+  <!--Bagian Portofolio-->
+    
     <section id="portofolio" class="PORTOFOLIO">
       <div class="container">
         <h1 style="color: rgb(115, 163, 180) bold ;" class="text-center">PORTOFOLIO</h1>
@@ -236,33 +124,27 @@
             <div class="col">
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <h5 class="card-title">Company Profile Sederhana</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Menggunakan HTML</h6>
+                  <p class="card-text">Profile singkat mengenai biodata diri dan apaya gatau plis asdfghjkl tp 3" code nya dah ilang kak tp sy bnrn buat ko kak wlpn nyntk yutub"lebi dr tipi</p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <h5 class="card-title">Web Online Shop Sederhana</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Menggunakan bahasa pemograman PHP</h6>
+                  <p class="card-text">Web ini memudahkan para pembeli melihat berbagai katalog yang di jual</p>
                 </div>
               </div>
             </div>
             <div class="col"> 
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <h5 class="card-title">Web Pembayaran SPP Sederhana</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Menggunakan bahasa pemograman PHP</h6>
+                  <p class="card-text">Dapat memudahkan siswa dan orang tua dalam melakukan pembayaran SPP secara online.</p>
                 </div>
               </div>
             </div>
@@ -276,6 +158,7 @@
       viewBox="0 0 1440 320"><path fill="#fff" 
       fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,90.7C672,75,768,117,864,154.7C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path></svg>
+      <!--bagian akhir portofolio-->
        
     <!--Contact-->
       <section id="contact">
@@ -374,10 +257,31 @@
               </div>
             </a>
               <div class="contact-item-detail">
-                <h4>Intagram</h4>
-                <p>Cntywdh</p>
+                <h4>Instagram</h4>
+                <p>@cntywdh</p>
               </div>
-              
+            </div>
+
+            <!--contact item 5-->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+              <a href="https://github.com/cntywdh">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="27" 
+                height="27" 
+                viewBox="0 0 24 24"
+                >
+                  <path 
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              </div>
+            </a>
+              <div class="contact-item-detail">
+                <h4>github</h4>
+                <p>cntywdh</p>
+              </div>
             </div>
 
           </div>
@@ -387,12 +291,29 @@
 
       <!-- Foter -->
     <footer>
-      <p class="text-center">&#169; 2024 - Made by Cintya</p>
+      <p class="text-center">&#169; 2024 - Made by cntywdh</p>
     </footer>
     <!-- End Footer -->
 
       <script src="scripts/main.js"></script>
 
+    <!--script biodata-->
+    <script>
+      function opentab(tabname) {
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          for (var tablink of tablinks) {
+              tablink.classList.remove("active-link");
+          }
+          for (var tabcontent of tabcontents) {
+              tabcontent.classList.remove("active-tab");
+          }
+
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+  </script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
